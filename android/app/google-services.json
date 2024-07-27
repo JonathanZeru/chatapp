@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820931279417",
+    "project_id": "chat-application-woods",
+    "storage_bucket": "chat-application-woods.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820931279417:android:b2b538b1e18a2697ababe8",
+        "android_client_info": {
+          "package_name": "com.chatapp.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH86aQ7YKtxL_H7hk5Lkgb7uoLle5UEIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
