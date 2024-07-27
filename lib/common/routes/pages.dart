@@ -36,7 +36,6 @@ class AppPages {
       binding: SignInBinding(),
     ),
 
-    // check if needed to login or not
     GetPage(
       name: AppRoutes.Application,
       page: () => ApplicationPage(),
@@ -46,8 +45,6 @@ class AppPages {
       ],
     ),
 
-    // 最新路由
-    // 首页
     GetPage(name: AppRoutes.Contact,
         page: () => ContactPage(),
         binding: ContactBinding()),
@@ -56,22 +53,12 @@ class AppPages {
         page: () => ChatPage(),
         binding: ChatBinding()),
 
-    //消息
-    /*
-    GetPage(name: AppRoutes.Message, page: () => MessagePage(), binding: MessageBinding()),
-    //我的*/
     GetPage(name: AppRoutes.Me,
         page: () => ProfilePage(),
         binding: ProfileBinding()),
-    //聊天详情
     GetPage(name: AppRoutes.Photoimgview,
         page: () => PhotoImgViewPage(),
         binding: PhotoImgViewBinding()),
   ];
-
-
-
-
-
 
 }

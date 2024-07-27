@@ -4,9 +4,7 @@ import 'package:chatapp/common/store/store.dart';
 
 import 'package:get/get.dart';
 
-/// 检查是否登录
 class RouteAuthMiddleware extends GetMiddleware {
-  // priority 数字小优先级高
   @override
   int? priority = 0;
 
